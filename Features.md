@@ -41,11 +41,7 @@
 |Demote| Demotes the tagged user as a standard participant from an admin if he's one. Can work only when commanding user is himself a group admin|
 |Remove| Removes the tagged user from the group, can only work if the bot is an admin and the one commanding this tool|
 
-|Nsfw| usage|
-|----|--------|
-|Nsfw-neko| Sends you random nsfw neko image|
-|Nsfw-waifu| Sends you random nsfw waifu image|
-|Trapped-waifu| Sends you random nsfw trapped waifu image|
+
 
 |Utils| usage|
 |----|--------|
