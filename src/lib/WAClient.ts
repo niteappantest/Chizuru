@@ -26,7 +26,7 @@ export default class WAClient extends Base {
   assets = new Map<string, Buffer>();
   constructor(public config: IConfig) {
     super();
-    this.browserDescription[0] = "Chitoge";
+    this.browserDescription[0] = "Chizuru";
     this.version = [3, 3234, 9];
     this.logger.level = "fatal";
 
@@ -40,7 +40,7 @@ export default class WAClient extends Base {
     this.on("qr", (qr) => {
       this.log(
         chalk.redBright(
-          `Scan the QR code above to continue | You can also authenticate at http://localhost:${
+          `Scan the QR code above to continue ,ok | You can also authenticate at http://localhost:${
             process.env.PORT || 4000
           }`
         )
@@ -294,7 +294,6 @@ export default class WAClient extends Base {
 
 export enum toggleableGroupActions {
   events = "events",
-  NSFW = "nsfw",
   safe = "safe",
   mod = "mod",
   cmd = "cmd",
