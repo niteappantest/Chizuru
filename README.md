@@ -44,7 +44,7 @@
 ## 💻 Deploy/Hosting Guide
 
 -   Click here 
-    [Chitoge-Guides](https://github.com/nexusNw/V-Guides/blob/main/README.md)
+    [Chizuru-Guides](https://github.com/nexusNw/V-Guides/blob/main/README.md)
 
 ## 🍥 Features of the Repo
 
